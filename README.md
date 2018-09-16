@@ -8,6 +8,9 @@
 # install dependencies
 npm install
 
+# develop
+npm run dev
+
 # build
 npm run build
 
