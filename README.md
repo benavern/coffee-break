@@ -1,8 +1,16 @@
 # coffee-break
 
 > A good excuse for those who need a break
+<center>
 
-## Build Setup
+  ![Settings](/screenshots/Settings.jpeg)
+
+  ![Settings](/screenshots/CoffeeTime.jpeg)
+
+</center>
+
+
+## Development Setup
 
 ``` bash
 # install dependencies
