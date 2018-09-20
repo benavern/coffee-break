@@ -5,11 +5,11 @@
 *Works on Windows, Mac & Linux*
 
 <p align="center">
+  <img alt="Settings" src="/screenshots/Settings.jpeg" />
+<p>
 
-  ![Settings](/screenshots/Settings.jpeg)
-
-  ![CoffeeTime](/screenshots/CoffeeTime.jpeg)
-
+<p align="center">
+  <img alt="CoffeeTime" src="/screenshots/CoffeeTime.jpeg" />
 <p>
 
 ## Development Setup
