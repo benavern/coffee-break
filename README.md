@@ -4,13 +4,13 @@
 
 *Works on Windows, Mac & Linux*
 
-<center>
+<p align="center">
 
   ![Settings](/screenshots/Settings.jpeg)
 
-  ![Settings](/screenshots/CoffeeTime.jpeg)
+  ![CoffeeTime](/screenshots/CoffeeTime.jpeg)
 
-</center>
+<p>
 
 ## Development Setup
 
