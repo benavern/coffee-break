@@ -14,7 +14,8 @@
     "package": "cross-var launchui-packager coffee-break $npm_package_version ./dist/main.js --out package/ --overwright --pack zip",
     "package:win": "npm run package -- --platform win32",
     "package:mac": "npm run package -- --platform darwin",
-    "package:linux": "npm run package -- --platform linux"
+    "package:linux": "npm run package -- --platform linux",
+    "release": "npm run package:win && npm run package:mac && npm run package:linux"
   },
   "author": "Benjamin Caradeuc <bencrdc@gmail.com>",
   "license": "MIT",
