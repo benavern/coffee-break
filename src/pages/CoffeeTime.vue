@@ -12,6 +12,7 @@
     </Group>
 
     <Box horizontal padded>
+      <Box stretchy />
       <Button @click="cancel">Cancel</Button>
     </Box>
   </Box>
