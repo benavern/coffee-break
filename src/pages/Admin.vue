@@ -1,6 +1,6 @@
 <template>
-  <Box>
-    <Group title="Coffee Break Settings" margined>
+  <Box stretchy>
+    <Group title="Coffee Break Settings" margined stretchy>
       <Form padded>
         <TextInput label="Window Title" v-model="settings.windowTitle"/>
 
@@ -10,7 +10,7 @@
 
         <Separator horizontal />
 
-        <TextArea label="Your Reason" v-model="settings.reason" />
+        <TextArea label="Your Reason" stretchy v-model="settings.reason" height="100"/>
 
         <Separator horizontal />
 
