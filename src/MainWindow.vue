@@ -1,5 +1,5 @@
 <template>
-  <Window :title="settings.windowTitle" width="600" height="360" margined v-on:close="exit">
+  <Window :title="settings.windowTitle" :width="windowSize.width" :height="windowSize.height" margined v-on:close="exit">
     <Box padded>
       <component :is="currentPage" :settings.sync="settings" @exit="exit" @stop="stop" @start="start"/>
     </Box>
@@ -28,6 +28,9 @@ export default {
   computed: {
     currentPage () {
       return this.coffeeTime ? CoffeeTime : Admin
+    },
+    windowSize () {
+      return this.coffeeTime ? {width: 600, height: 100} : {width: 600, height: 800}
     }
   },
   methods: {
