@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Coffee Break
+GenericName=Coffee Break App
+Comment=A good excuse for those who need a break
+Categories=Utility
+Exec=com.github.benavern.coffee-break
+Icon=icons/icon.png
+Terminal=false
+Type=Application

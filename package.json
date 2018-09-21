@@ -12,9 +12,9 @@
     "dev": "nodemon --exec run-s build:dev start:dev",
     "prepackage": "npm run build",
     "package": "cross-var launchui-packager coffee-break $npm_package_version ./dist/main.js --out package/ --overwright --pack zip",
-    "package:win": "npm run package -- --platform win32",
-    "package:mac": "npm run package -- --platform darwin",
-    "package:linux": "npm run package -- --platform linux",
+    "package:win": "npm run package -- --platform win32 --icon ./icons/icon.ico",
+    "package:mac": "npm run package -- --platform darwin --icon ./icons/icon.icns",
+    "package:linux": "npm run package -- --platform linux --icon ./icons/icon.png",
     "release": "npm run package:win && npm run package:mac && npm run package:linux"
   },
   "author": "Benjamin Caradeuc <bencrdc@gmail.com>",

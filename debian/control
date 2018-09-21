@@ -1,0 +1,11 @@
+Source: com.github.benavern.coffee-break
+Section: x11
+Priority: extra
+Maintainer: Benjamin Caradeuc<benjamin@caradeuc.info>
+Build-Depends: meson
+Standards-Version: 4.1.1
+
+Package: com.github.benavern.coffee-break
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: A good excuse for those who need a break
